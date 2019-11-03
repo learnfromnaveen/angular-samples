@@ -1,0 +1,8 @@
+.message-container {
+    border: 1px solid grey; 
+    padding: 10px;
+}
+
+.messages{
+    padding: 5px;
+}

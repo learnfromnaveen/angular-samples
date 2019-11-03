@@ -1,0 +1,17 @@
+1. Typescript link  
+    https://www.typescriptlang.org/docs/home.html
+    
+
+age:int = 20;  
+
+name: string  = 'Vivaan'; 
+
+
+function add(a: int, b:int) : int{
+    return a + b;  
+}
+
+
+let names:[] = [];  
+
+
