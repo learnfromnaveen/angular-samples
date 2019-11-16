@@ -1,0 +1,7 @@
+<div *ngFor="let user of users" style="float:left; margin-left: 5px; margin-top: 5px;">
+  <p-card [header]="user.name" [style]="{width: '360px'}">
+    <div>
+      {{user.email}}
+    </div>
+  </p-card>
+</div>
