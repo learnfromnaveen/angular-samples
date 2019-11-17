@@ -1,0 +1,11 @@
+<ng-container *ngFor="let article of articles; let i=index">  
+    <div class="panel-group" id="accordion">
+    <app-news-article
+      [title]="article.title"
+      [body] = "article.content"
+      [footer] = "article.source.name"
+      [index] = "i"
+    >
+    </app-news-article>
+  </div>
+</ng-container>
